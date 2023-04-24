@@ -1,0 +1,68 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito:ital,wght@1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ .app {
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+} 
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background: #12222a;
+    color: whitesmoke;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+.nl-text {
+    margin-right: auto;
+    color: #61dafb;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.nl-title {
+    margin: auto;
+    font-weight: normal;
+}
+
+.nav-icon {
+    width: 50px;
+    margin-right: 7px;
+}
+
+.main {
+    padding: 97px 77px;
+    color: white;
+    background-image: url(./images/reactjs-icon\ 2.png);
+    background-position: right 75%;
+    background-repeat: no-repeat;
+}
+
+.main__h1 {
+    font-size: 39px;
+    font-weight: bold;
+}
+
+.main__ul {
+    margin-top: 46px;
+    margin-left: 50px;
+    max-width: 500px;
+}
+
+.main__ul li {
+    line-height: 30px;
+    padding-block: 10px;
+}
+
+.main__ul li::marker {
+    font-size: 1.6rem;
+    color: #61dafb;
+}
